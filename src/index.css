@@ -1,0 +1,30 @@
+:root {
+  --background-color: #000000;
+  --light-blue: #6daeb7;
+  --dark-blue: #33719e;
+  --dark-yellow:#b3a500;
+  --light-yellow: #af9340;
+  --orange: #9c6f5d;
+  --pink: #9c6889;
+  --green: #40ab88;
+  --white: #d8d8d8;
+  --border-color: #5da4bc;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+ 
+}
