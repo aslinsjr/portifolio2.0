@@ -1,0 +1,23 @@
+.nav-container {
+    width: 20vw;
+    height: 92vh;
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+}
+
+.icons-bar {
+    width: 9vh;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.icons-bar img {
+    width: 2rem;
+}

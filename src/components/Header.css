@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    height: 8vh;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header img {
+    width: 1.5rem;
+}
+
+.input-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--white);
+    border-radius: 0.5rem;
+    width: 50vw;
+    gap: 0.5rem;
+}
+
+.input-control img {
+    width: 1.5rem;
+}
+
+.input-control input {
+    border: none;
+    background-color: transparent;
+}
+
+.input-control input:focus {
+    outline: none;
+}
+
+#close-icon {
+    width: 1rem;
+}
